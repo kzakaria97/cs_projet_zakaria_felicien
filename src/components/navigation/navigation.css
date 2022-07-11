@@ -1,0 +1,12 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.lien {
+  display: flex;
+  gap: 15%;
+}
+.icon {
+  display: flex;
+  gap: 25%;
+}
