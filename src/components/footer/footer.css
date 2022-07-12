@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgb(201, 201, 201);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: grey;
+}
+.para-footer {
+  font-size: 12px;
+}
+.icon-footer {
+  display: flex;
+  gap: 3%;
+  color: grey;
+  justify-content: center;
+}

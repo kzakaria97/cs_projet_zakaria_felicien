@@ -1,0 +1,128 @@
+.div1 {
+  display: flex;
+  gap: 30%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: url("../../img/cart_top.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.title-leather {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.btn-shop {
+  border-radius: 25%;
+  border: none;
+  padding: 0.3%;
+  margin-top: 8%;
+}
+.fleche {
+  font-size: 35px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.div2 {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.div2-1 {
+  background-image: url("../../img/lunettes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  width: 40vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.btn1-div2 {
+  background-color: white;
+  border: none;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+.div2-2 {
+  background-image: url("../../img/montre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  width: 40vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.btn2-div2 {
+  background-color: white;
+  border: none;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+.div2-3 {
+  background-image: url("../../img/sac.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  width: 40vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.btn3-div2 {
+  background-color: white;
+  border: none;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+.div3 {
+  margin-top: 5%;
+}
+.div3 h2 {
+  text-align: center;
+}
+.div3-p {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 3%;
+}
+.div3-p p:hover {
+  border-bottom: solid 2px black;
+}
+.tabs {
+  border: none;
+  margin-left: 2%;
+}
+.tabs:hover {
+  border-bottom: solid 2px black;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.panel {
+  display: flex !important;
+  justify-content: center;
+  gap: 3%;
+}
+.panel img {
+  width: 200px;
+  height: 300px;
+}
+.img2-panel {
+  width: 220px !important;
+  height: 300px !important;
+}
+.solde {
+  color: red;
+}
