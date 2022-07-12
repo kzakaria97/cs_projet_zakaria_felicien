@@ -1,11 +1,11 @@
 .div1 {
   display: flex;
-  gap: 29%;
+  gap: 30%;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
-  background-image: url("../../img/cart_top.jpg");
+  background-image: url('../../../public/img/cart_top.jpg');
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -32,7 +32,7 @@
   justify-content: space-evenly;
 }
 .div2-1 {
-  background-image: url("../../img/lunettes.png");
+  background-image: url("../../../public/img/lunettes.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,7 +49,7 @@
   margin-bottom: 5%;
 }
 .div2-2 {
-  background-image: url("../../img/montre.jpg");
+  background-image: url("../../../public/img/montre.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +66,7 @@
   margin-bottom: 5%;
 }
 .div2-3 {
-  background-image: url("../../img/sac.jpg");
+  background-image: url("../../../public/img/sac.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

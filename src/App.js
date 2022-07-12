@@ -18,7 +18,7 @@ const App = () => {
         {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclarer au dessus */}
         <Route path="*" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>    
   );
 };
 

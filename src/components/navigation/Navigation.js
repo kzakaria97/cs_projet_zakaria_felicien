@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../img/logo.png";
+
 import "./navigation.css";
 
 const Navigation = () => {
   return (
     <div className="navigation">
-      <img src={Logo} alt="" />
+      <img src={"../../../public/img/logo.png"} alt="" />
       <ul className="lien">
         <NavLink
           to="/home"
-          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          className={(nav) => (nav. isActive ? "nav-active" : "")}
         >
           <li>Home</li>
         </NavLink>

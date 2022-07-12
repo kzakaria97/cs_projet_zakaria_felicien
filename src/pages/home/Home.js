@@ -3,10 +3,8 @@ import Navigation from "../../components/navigation/Navigation";
 import "./home.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import tShirt from "../../img/t-shirt.jpg";
-import polo from "../../img/polosRL.jpg";
-import polos from "../../img/poloBleu.jpg";
-import chemise from "../../img/chemise.jpg";
+
+
 const Home = () => {
   return (
     <div>
@@ -44,22 +42,22 @@ const Home = () => {
           </TabList>
           <TabPanel className="panel">
             <div>
-              <img src={tShirt} alt="" />
+              <img src={"../../img/t-shirt.jpg"} alt="" />
               <p>Herschel supply co 25l</p>
               <p>$75.00</p>
             </div>
             <div>
-              <img src={polo} alt="" />
+              <img src={"../../img/polosRL.jpg"} alt="" />
               <p>Denim jacket blue</p>
               <p>$92.50</p>
             </div>
             <div>
-              <img src={polos} alt="" />
+              <img src={"../../img/poloBleu.jpg"} alt="" />
               <p>Coach slim easton black</p>
               <p>$165.90</p>
             </div>
             <div>
-              <img src={chemise} alt="" />
+              <img src={"../../puclic/img/chemise.jpg"} alt="" />
               <p>Herschel supply co 25l</p>
               <p>
                 <strike>$29.50</strike>

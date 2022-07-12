@@ -1,8 +1,8 @@
 import React from "react";
 import Navigation from "../../components/navigation/Navigation";
 import "./about.css";
-import cintre from "../../img/cintres.jpg";
 import Footer from "../../components/footer/Footer";
+
 const About = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const About = () => {
       <div className="div2-about container">
         <div className="row">
           <div className="col-4">
-            <img src={cintre} className="cintre" alt="" />
+            <img src={('../../../public/img/cintres.jpg')} className="cintre" alt="" />
           </div>
           <div className="col-8">
             <h2 className="story">Our story</h2>
