@@ -34,8 +34,7 @@ const Navigation = () => {
         </NavLink>
       </ul>
       <div className="icon">
-        <i class="far fa-heart"></i>
-        <i class="far fa-shopping-bag"></i>
+        <i class="far fa-heart"></i> |<i class="far fa-shopping-bag"></i>
       </div>
     </div>
   );

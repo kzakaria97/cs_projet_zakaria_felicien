@@ -4,6 +4,8 @@ import Home from "./pages/home/Home";
 import Product from "./pages/product/Product";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
+import "./app.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
