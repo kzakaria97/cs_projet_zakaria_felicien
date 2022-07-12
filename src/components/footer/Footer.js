@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import payment from "../../img/payments.jpg";
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
             </p>
             <p className="para-footer">
               Any questions? let us know in store at 8th floor, 379 Hudson St,
-              New York ,NY 10018 or call us on (+1)96 716 6879
+              New York ,<br /> NY 10018 or call us on (+1)96 716 6879
             </p>
             <div className="icon-footer">
               <i class="fab fa-facebook-f"></i>
@@ -48,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="div-payment">
-        <img src={payment} className="masterCard" alt="" />
+        <img src="img/payments.jpg" className="masterCard" alt="" />
         <p>Copyright &copy; All rights reserved.</p>
       </div>
     </div>

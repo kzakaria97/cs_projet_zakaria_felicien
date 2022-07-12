@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   color: white;
-  background-image: url("../../img/cart_top.jpg");
+  background-image: url("../../../public/img/cart_top.jpg");
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -33,7 +33,7 @@
   justify-content: space-evenly;
 }
 .div2-1 {
-  background-image: url("../../img/lunettes.png");
+  background-image: url("../../../public/img/lunettes.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,7 +50,7 @@
   margin-bottom: 5%;
 }
 .div2-2 {
-  background-image: url("../../img/montre.jpg");
+  background-image: url("../../../public/img/montre.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -67,7 +67,7 @@
   margin-bottom: 5%;
 }
 .div2-3 {
-  background-image: url("../../img/sac.jpg");
+  background-image: url("../../../public/img/sac.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,24 +84,30 @@
   margin-bottom: 5%;
 }
 .div3 {
+  padding: 0 !important;
   margin-top: 5%;
   margin-bottom: 10%;
-}
-.div3 h2 {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .div3-p {
-  display: flex;
-  justify-content: center;
+  padding: 0 !important;
   gap: 3%;
   margin-top: 3%;
 }
 .div3-p p:hover {
   border-bottom: solid 2px black;
+  border: none;
 }
 .tabs {
   border: none;
-  margin-left: 2%;
+  margin: 4.5%;
+}
+.tabs:hover {
+  border: none !important;
+  border-bottom: solid black 1px !important ;
 }
 .tabs:hover {
   border-bottom: solid 2px black;
@@ -109,22 +115,61 @@
 .tab {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 5%;
   margin-top: 3%;
+  text-align: center;
 }
 .panel {
   display: flex !important;
   justify-content: center;
   gap: 3%;
 }
-.panel img {
-  width: 200px;
+.panel div div {
+  width: 250px;
   height: 300px;
 }
-.img2-panel {
-  width: 220px !important;
-  height: 300px !important;
+.img1-BS {
+  background-image: url("../../../public/img/t-shirt.jpg");
+  background-position: top;
+  background-size: cover;
 }
 .solde {
   color: red;
+}
+.img1-BS p {
+  color: white;
+  background-color: green;
+  width: 8vh;
+  font-size: 12px;
+  text-align: center;
+}
+.img2-BS {
+  background-image: url("../../../public/img/polosRL.jpg");
+  background-size: cover;
+}
+.img3-BS {
+  background-image: url("../../../public/img/poloBleu.jpg");
+  background-size: cover;
+}
+.img4-BS {
+  background-image: url("../../../public/img/chemise.jpg");
+  background-size: cover;
+}
+.img4-BS p {
+  color: white;
+  background-color: red;
+  width: 8vh;
+  font-size: 12px;
+  text-align: center;
+}
+.div-play {
+  position: relative;
+  bottom: 30rem;
+  color: white;
+}
+.div4-home {
+  overflow: hidden;
+  width: 78.9rem;
+  height: 35rem;
 }

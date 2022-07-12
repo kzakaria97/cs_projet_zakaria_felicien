@@ -3,11 +3,8 @@ import Navigation from "../../components/navigation/Navigation";
 import "./home.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import tShirt from "../../img/t-shirt.jpg";
-import polo from "../../img/polosRL.jpg";
-import polos from "../../img/poloBleu.jpg";
-import chemise from "../../img/chemise.jpg";
 import Footer from "../../components/footer/Footer";
+import Video from "../../components/video/Video";
 const Home = () => {
   return (
     <div>
@@ -45,22 +42,26 @@ const Home = () => {
           </TabList>
           <TabPanel className="panel">
             <div>
-              <img src={tShirt} alt="" />
+              <div className="img1-BS">
+                <p className="rounded-pill">New</p>
+              </div>
               <p>Herschel supply co 25l</p>
               <p>$75.00</p>
             </div>
             <div>
-              <img src={polo} alt="" />
+              <div className="img2-BS"></div>
               <p>Denim jacket blue</p>
               <p>$92.50</p>
             </div>
             <div>
-              <img src={polos} alt="" />
+              <div className="img3-BS"></div>
               <p>Coach slim easton black</p>
               <p>$165.90</p>
             </div>
             <div>
-              <img src={chemise} alt="" />
+              <div className="img4-BS">
+                <p className="rounded-pill">Sale</p>
+              </div>
               <p>Herschel supply co 25l</p>
               <p>
                 <strike>$29.50</strike>
@@ -69,15 +70,104 @@ const Home = () => {
             </div>
           </TabPanel>
           <TabPanel className="panel">
-            <h2>Any content 2</h2>
+            <div>
+              <div className="img1-BS">
+                <p className="rounded-pill">New</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>$75.00</p>
+            </div>
+            <div>
+              <div className="img1-BS">
+                <p className="rounded-pill">New</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>$75.00</p>
+            </div>
+            <div>
+              <div className="img1-BS">
+                <p className="rounded-pill">New</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>$75.00</p>
+            </div>
+            <div>
+              <div className="img1-BS">
+                <p className="rounded-pill">New</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>$75.00</p>
+            </div>
           </TabPanel>
           <TabPanel className="panel">
-            <h2>zazz</h2>
+            <div>
+              <div className="img4-BS">
+                <p className="rounded-pill">Sale</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>
+                <strike>$29.50</strike>
+                <span className="solde"> $15.90</span>
+              </p>
+            </div>
+            <div>
+              <div className="img4-BS">
+                <p className="rounded-pill">Sale</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>
+                <strike>$29.50</strike>
+                <span className="solde"> $15.90</span>
+              </p>
+            </div>
+            <div>
+              <div className="img4-BS">
+                <p className="rounded-pill">Sale</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>
+                <strike>$29.50</strike>
+                <span className="solde"> $15.90</span>
+              </p>
+            </div>
+            <div>
+              <div className="img4-BS">
+                <p className="rounded-pill">Sale</p>
+              </div>
+              <p>Herschel supply co 25l</p>
+              <p>
+                <strike>$29.50</strike>
+                <span className="solde"> $15.90</span>
+              </p>
+            </div>
           </TabPanel>
           <TabPanel className="panel">
-            <h2>orof</h2>
+            <div>
+              <div className="img2-BS"></div>
+              <p>Denim jacket blue</p>
+              <p>$92.50</p>
+            </div>
+            <div>
+              <div className="img3-BS"></div>
+              <p>Coach slim easton black</p>
+              <p>$165.90</p>
+            </div>
+
+            <div>
+              <div className="img2-BS"></div>
+              <p>Denim jacket blue</p>
+              <p>$92.50</p>
+            </div>
+            <div>
+              <div className="img3-BS"></div>
+              <p>Coach slim easton black</p>
+              <p>$165.90</p>
+            </div>
           </TabPanel>
         </Tabs>
+      </div>
+      <div className="div4-home">
+        <Video />
       </div>
       <Footer />
     </div>

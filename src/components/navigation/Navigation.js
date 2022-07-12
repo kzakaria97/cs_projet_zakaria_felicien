@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../img/logo.png";
 import "./navigation.css";
 
 const Navigation = () => {
   return (
     <div className="navigation">
-      <img src={Logo} alt="" />
+      <img src="/img/logo.png" alt="" />
       <ul className="lien">
         <NavLink
           to="/home"
@@ -34,7 +33,18 @@ const Navigation = () => {
         </NavLink>
       </ul>
       <div className="icon">
-        <i class="far fa-heart"></i> |<i class="far fa-shopping-bag"></i>
+        <NavLink
+          to="/like"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          <i class="far fa-heart"></i>
+        </NavLink>
+        <NavLink
+          to="/panier"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+        >
+          |<i class="far fa-shopping-bag"></i>
+        </NavLink>
       </div>
     </div>
   );

@@ -1,0 +1,9 @@
+.item div {
+  height: 15rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.productItemsContainer p {
+  text-align: right;
+}
