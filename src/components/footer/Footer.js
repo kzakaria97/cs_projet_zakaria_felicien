@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import payment from "../../img/payments.jpg";
 
 const Footer = () => {
   return (
@@ -45,6 +46,10 @@ const Footer = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="div-payment">
+        <img src={payment} className="masterCard" alt="" />
+        <p>Copyright &copy; All rights reserved.</p>
       </div>
     </div>
   );

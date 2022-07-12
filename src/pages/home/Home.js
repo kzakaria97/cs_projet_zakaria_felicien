@@ -7,6 +7,7 @@ import tShirt from "../../img/t-shirt.jpg";
 import polo from "../../img/polosRL.jpg";
 import polos from "../../img/poloBleu.jpg";
 import chemise from "../../img/chemise.jpg";
+import Footer from "../../components/footer/Footer";
 const Home = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Home = () => {
             <u>LEATHER BAGS</u>
           </h1>
           <p>New Collection</p>
-          <button className="btn-shop">SHOP NOW</button>
+          <button className="btn-shop rounded-pill">SHOP NOW</button>
         </div>
         <button className="fleche">&#8594;</button>
       </div>
@@ -78,6 +79,7 @@ const Home = () => {
           </TabPanel>
         </Tabs>
       </div>
+      <Footer />
     </div>
   );
 };

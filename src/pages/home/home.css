@@ -15,10 +15,11 @@
   margin-bottom: 20px;
 }
 .btn-shop {
-  border-radius: 25%;
   border: none;
   padding: 0.3%;
-  margin-top: 8%;
+  margin-top: 5%;
+  font-size: 12px;
+  padding: 2%;
 }
 .fleche {
   font-size: 35px;
@@ -84,6 +85,7 @@
 }
 .div3 {
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 .div3 h2 {
   text-align: center;
