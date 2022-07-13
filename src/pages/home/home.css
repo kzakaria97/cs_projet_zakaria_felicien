@@ -1,34 +1,4 @@
-.div1 {
-  display: flex;
-  gap: 29%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  background-image: url("../../../public/img/cart_top.jpg");
-  height: 50vh;
-  background-position: center;
-  background-size: cover;
-}
-.title-leather {
-  font-size: 45px;
-  margin-bottom: 20px;
-}
-.btn-shop {
-  border: none;
-  padding: 0.3%;
-  margin-top: 5%;
-  font-size: 12px;
-  padding: 2%;
-}
-.fleche {
-  font-size: 35px;
-  background-color: transparent;
-  border: none;
-  color: white;
-}
 .div2 {
-  padding-top: 5%;
   display: flex;
   justify-content: space-evenly;
 }

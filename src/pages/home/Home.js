@@ -5,21 +5,12 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Footer from "../../components/footer/Footer";
 import Video from "../../components/video/Video";
+import CarouselComponent from "../../components/swiper/Swipe";
 const Home = () => {
   return (
     <div>
       <Navigation />
-      <div className="div1">
-        <button className="fleche">&#8592;</button>
-        <div className="div1-second">
-          <h1 className="title-leather">
-            <u>LEATHER BAGS</u>
-          </h1>
-          <p>New Collection</p>
-          <button className="btn-shop rounded-pill">SHOP NOW</button>
-        </div>
-        <button className="fleche">&#8594;</button>
-      </div>
+      <CarouselComponent />
       <div className="div2">
         <div className="div2-1">
           <button className="btn1-div2">COMING SOON</button>
