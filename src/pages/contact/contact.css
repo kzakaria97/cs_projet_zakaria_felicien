@@ -1,0 +1,44 @@
+iframe {
+  width: 30rem;
+  height: 400px;
+}
+
+.contactForm {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.formInput input:nth-child(5) {
+  height: 4rem;
+}
+.formInput button {
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  width: 20%;
+}
+.formInput input {
+  border-radius: 1rem;
+  padding: 0 0.5rem;
+  margin: 0.4rem 0;
+}
+.contactTitle {
+  background-image: url("../../../public//img/brique.jpg");
+  color: white;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}

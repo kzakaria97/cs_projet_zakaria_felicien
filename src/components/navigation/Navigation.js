@@ -5,7 +5,12 @@ import "./navigation.css";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <img src="/img/logo.png" alt="" />
+      <NavLink
+        to="/home"
+        className={(nav) => (nav.isActive ? "nav-active" : "")}
+      >
+        <img src="/img/logo.png" alt="" />
+      </NavLink>
       <ul className="lien">
         <NavLink
           to="/home"
@@ -37,14 +42,9 @@ const Navigation = () => {
           to="/like"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <i class="far fa-heart"></i>
+          <i class="far fa-heart text-black"></i>
         </NavLink>
-        <NavLink
-          to="/panier"
-          className={(nav) => (nav.isActive ? "nav-active" : "")}
-        >
-          |<i class="far fa-shopping-bag"></i>
-        </NavLink>
+        <i class="far fa-shopping-bag"></i>
       </div>
     </div>
   );

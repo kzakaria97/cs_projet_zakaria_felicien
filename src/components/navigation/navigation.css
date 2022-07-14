@@ -7,6 +7,10 @@
   top: 0;
   background-color: white;
   z-index: 2;
+  border-bottom: solid 2px black;
+}
+.navigation ul {
+  padding: 0 !important;
 }
 .lien {
   display: flex;
@@ -15,17 +19,16 @@
 .lien li:hover {
   color: red;
 }
-.icon {
-  display: flex;
-  gap: 5%;
+.icon i {
+  padding-left: 5px;
 }
 img {
-  width: 5%;
+  width: 90%;
   height: 1rem;
 }
 li {
   list-style: none;
 }
 a {
-  color: black;
+  color: black !important;
 }

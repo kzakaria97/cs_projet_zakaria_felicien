@@ -1,22 +1,28 @@
 import React from "react";
 import Carousel from "nuka-carousel";
 import "./swipe.css";
+import { NavLink } from "react-router-dom";
 
 const CarouselComponent = () => {
   return (
     <Carousel>
       <div>
-        <img className="swiper" src="./img/cart_top.jpg" />
+        <img className="swiper" src="/img/cart_top.jpg" />
         <div className=" legend-swipe text-center text-white">
           <h1>
             <u>LEATHER BAGS</u>
           </h1>
           <p>New Collection</p>
-          <button className="rounded-pill">SHOP NOW</button>
+          <NavLink
+            to="/product"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <button className="rounded-pill">SHOP NOW</button>
+          </NavLink>
         </div>
       </div>
       <div>
-        <img className="swiper" src="./img/about_top.jpg" />
+        <img className="swiper" src="/img/about_top.jpg" />
         <div className="legend-swipe text-center text-white">
           <h1>
             <u>LEATHER BAGS</u>
@@ -26,7 +32,7 @@ const CarouselComponent = () => {
         </div>
       </div>
       <div>
-        <img className="swiper" src="./img/blog_top.jpg" />
+        <img className="swiper" src="/img/blog_top.jpg" />
         <div className="legend-swipe text-center text-white">
           <h1>
             <u>LEATHER BAGS</u>
@@ -36,13 +42,18 @@ const CarouselComponent = () => {
         </div>
       </div>
       <div>
-        <img className="swiper" src="./img/collection_top.jpg" />
+        <img className="swiper" src="/img/collection_top.jpg" />
         <div className="legend-swipe text-center text-white">
           <h1>
             <u>LEATHER BAGS</u>
           </h1>
           <p>New Collection</p>
-          <button className="rounded-pill">SHOP NOW</button>
+          <NavLink
+            to="/product"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <button className="rounded-pill">SHOP NOW</button>
+          </NavLink>
         </div>
       </div>
     </Carousel>

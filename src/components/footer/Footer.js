@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="div-payment">
-        <img src="img/payments.jpg" className="masterCard" alt="" />
+        <img src="/img/payments.jpg" className="masterCard" alt="" />
         <p>Copyright &copy; All rights reserved.</p>
       </div>
     </div>

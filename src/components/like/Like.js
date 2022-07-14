@@ -6,7 +6,9 @@ const Like = () => {
   return (
     <div>
       <Navigation />
-
+      <div>
+        <h1 className="text-center">Voici tout vos coups de coeurs</h1>
+      </div>
       <Footer />
     </div>
   );
