@@ -12,7 +12,7 @@ const About = () => {
       <div className="div2-about container">
         <div className="row">
           <div className="col-4">
-            <img src="/img/cintres.jpg" className="cintre" alt="" />
+            <img src="/images/women4.webp" className="cintre" alt="" />
           </div>
           <div className="col-8">
             <h2 className="story">Our story</h2>

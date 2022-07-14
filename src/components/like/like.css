@@ -2,3 +2,13 @@
   background-color: #23aa4e;
   border-color: #177d37;
 }
+.likeTitle {
+  background-image: url("../../../public//img/brique.jpg");
+  color: white;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}

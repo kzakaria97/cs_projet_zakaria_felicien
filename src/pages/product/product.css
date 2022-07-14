@@ -25,7 +25,18 @@
 .productNav h2 {
   font-weight: 800;
 }
-
-.navinput {
+.navTop {
+  line-height: 2rem;
+}
+.navInput {
+  border-radius: 1rem;
+  margin: 1rem 2rem;
   border: 1px solid black;
+  padding: 0.3rem;
+}
+.navInput input {
+  border: none;
+}
+.nbreArticles {
+  color: gray;
 }

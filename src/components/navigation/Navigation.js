@@ -42,9 +42,37 @@ const Navigation = () => {
           to="/like"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <i class="far fa-heart text-black"></i>
+          <i class="pt-2 far fa-heart text-black"></i>
         </NavLink>
-        <i class="far fa-shopping-bag"></i>
+        <div class="dropdown">
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+          >
+            <i class="far fa-shopping-bag"></i>
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#">
+                Action
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                Another action
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
