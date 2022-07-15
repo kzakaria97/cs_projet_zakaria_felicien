@@ -20,6 +20,7 @@ export default function Product() {
       nouveauPrix: "",
       pastille: "New",
       id: "i1",
+      key: "1",
       categorie: "women",
     },
     {
@@ -28,6 +29,7 @@ export default function Product() {
       prix: "$92.50",
       nouveauPrix: "Coach slim easton black",
       pastille: "",
+      key: "2",
       id: "i2",
       categorie: "men",
     },
@@ -38,6 +40,7 @@ export default function Product() {
       nouveauPrix: "",
       astille: "",
       id: "i3",
+      key: "3",
       categorie: "kids",
     },
     {
@@ -47,6 +50,7 @@ export default function Product() {
       prix: "$75.00",
       nouveauPrix: "",
       id: "i4",
+      key: "4",
       categorie: "accessoire",
     },
     {
@@ -56,6 +60,7 @@ export default function Product() {
       prix: "$75.00",
       nouveauPrix: "",
       id: "i5",
+      key: "5",
       categorie: "men",
     },
     {
@@ -65,6 +70,7 @@ export default function Product() {
       prix: "$92.50",
       nouveauPrix: "",
       id: "i6",
+      key: "6",
       categorie: "women",
     },
     {
@@ -74,22 +80,11 @@ export default function Product() {
       nouveauPrix: "",
       pastille: "New",
       id: "i7",
+      key: "7",
       categorie: "kids",
     },
   ]);
-
-  // const [panier, setPanier] = useState([
-  // ])
-  // const [favori, setFavori] = useState([
-  // ])
-
-  // const handleFavoriClick = () => {
-  //   setFavori(this)
-  // }
-  // const handlePanierClick = () => {
-  //   setPanier(this)
-  // }
-
+  const [search, setSearch] = useState("")
 
 
   return (
@@ -109,13 +104,37 @@ export default function Product() {
           <Tab value='kids'>Kids</Tab><br />
           <Tab value='men'>Men</Tab><br />
           <Tab value='accsessoires'>Accessoires</Tab>
-          <div className="navBottom">
+          <Tab className="navBottom">
             <h3>Filter</h3>
             <div className="navInput">
-              <input type="text" />
-              <i></i>
-            </div>
-          </div>
+              <input
+                type="text"
+                placeholder="Search ..."
+                value={search}
+                onChange={event => {
+                  setSearch(event.target.value);
+                }}
+              />
+              {
+                items.filter((val) => {
+                  if (search === "") { return val }
+                  else if (val.nom.toLowerCase().includes(search.toLowerCase())) { return val }
+                }).map((val, key) => {
+                  return
+                  <Item
+                    key={val}
+                    url={val.url}
+                    nom={val.nom}
+                    prix={val.prix}
+                    nouveauPrix={val.nouveauPrix}
+                    pastille={val.pastille}
+                    categorie={val.categorie}
+                  />
+
+                })
+              }
+              <i class="fa-solid fa-magnifying-glass"></i>            </div>
+          </Tab>
         </TabList>
         <TabPanel value='all'>
 
@@ -223,14 +242,17 @@ export default function Product() {
             /></div>
         </TabPanel>
         <TabPanel value='kids'>
-          <Item
-            url={items[3].url}
-            nom={items[3].nom}
-            prix={items[3].prix}
-            nouveauPrix={items[3].nouveauPrix}
-            pastille={items[3].pastille}
-            categorie={items[3].categorie}
-          />
+          <div className="itemsGrid">
+
+            <Item
+              url={items[3].url}
+              nom={items[3].nom}
+              prix={items[3].prix}
+              nouveauPrix={items[3].nouveauPrix}
+              pastille={items[3].pastille}
+              categorie={items[3].categorie}
+            />
+          </div>
         </TabPanel>
         <TabPanel value='men'>
           <div className="itemsGrid">
@@ -267,5 +289,6 @@ export default function Product() {
           </div>
         </TabPanel>
       </Tabs>
+              <Footer />
     </section>)
 }
