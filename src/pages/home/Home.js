@@ -22,7 +22,7 @@ const Home = () => {
           <button className="btn3-div2">COMING SOON</button>
         </div>
       </div>
-      <Panel />
+      <Panel className='homePanel' />
       <div className="div4-home">
         <Video />
       </div>

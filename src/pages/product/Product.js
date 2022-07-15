@@ -1,15 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Item from "./Item";
 import "./product.css";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+
+
+
 
 export default function Product() {
+
   // liste des items (state)
   const [items, setItems] = useState([
     {
       nom: "Herschel supply co 25l",
-      url: "/img/item-2.jpg",
+      url: "./img/item-2.jpg",
       prix: "$75.00",
       nouveauPrix: "",
       pastille: "New",
@@ -18,7 +24,7 @@ export default function Product() {
     },
     {
       nom: "Denim jacket blue",
-      url: "/img/item-7.jpg",
+      url: "./img/item-7.jpg",
       prix: "$92.50",
       nouveauPrix: "Coach slim easton black",
       pastille: "",
@@ -27,7 +33,7 @@ export default function Product() {
     },
     {
       nom: "Coach slim easton black",
-      url: "/img/item-4.jpg",
+      url: "./img/item-4.jpg",
       prix: "$165.90",
       nouveauPrix: "",
       astille: "",
@@ -35,7 +41,7 @@ export default function Product() {
       categorie: "kids",
     },
     {
-      url: "/img/item-3.jpg",
+      url: "./img/item-3.jpg",
       pastille: "New",
       nom: "Supply co l",
       prix: "$75.00",
@@ -44,7 +50,7 @@ export default function Product() {
       categorie: "accessoire",
     },
     {
-      url: "/img/item-4.jpg",
+      url: "./img/item-4.jpg",
       pastille: "",
       nom: "Herschel da thing",
       prix: "$75.00",
@@ -53,7 +59,7 @@ export default function Product() {
       categorie: "men",
     },
     {
-      url: "/img/item-6.jpg",
+      url: "./img/item-6.jpg",
       pastille: "",
       nom: "Row greey",
       prix: "$92.50",
@@ -71,18 +77,21 @@ export default function Product() {
       categorie: "kids",
     },
   ]);
-  // state pour trier les catÃ©gories avec useEffect
-  const [tri, setTri] = useState(null);
-  useEffect(() => {
-    setTri(items);
-  });
-  const triCategorie = (genre) => {
-    let filtreCategorie = items.filter((item) => item.categorie === genre);
-    return filtreCategorie;
-  };
-  const handleTri = (e) => {
-    let categorie = e.target.categorieg;
-  };
+
+  // const [panier, setPanier] = useState([
+  // ])
+  // const [favori, setFavori] = useState([
+  // ])
+
+  // const handleFavoriClick = () => {
+  //   setFavori(this)
+  // }
+  // const handlePanierClick = () => {
+  //   setPanier(this)
+  // }
+
+
+
   return (
     <section className="Product">
       <Navigation />
@@ -90,99 +99,173 @@ export default function Product() {
         PRODUCT
         <span> New Arrival Women Collection</span>
       </h1>
-      <div className="groupeProduct">
-        <nav className="productNav">
-          <div className="navTop">
-            <h3>Categories</h3>
-            <span>All</span>
-            <br />
-            <span>Women</span>
-            <br />
-            <span>Kids</span>
-            <br />
-            <span>Men</span>
-            <br />
-            <span>Accessories</span>
-            <br />
-          </div>
+      <p className="nbreArticles">Nombre de product search: 15 all</p>
+
+      <Tabs className="groupeProduct" value='all'>
+        <TabList>
+          <h3>Categories</h3>
+          <Tab>All</Tab><br />
+          <Tab value='women'>Women</Tab><br />
+          <Tab value='kids'>Kids</Tab><br />
+          <Tab value='men'>Men</Tab><br />
+          <Tab value='accsessoires'>Accessoires</Tab>
           <div className="navBottom">
             <h3>Filter</h3>
             <div className="navInput">
               <input type="text" />
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i></i>
             </div>
           </div>
-        </nav>
-        <div className="productItemsContainer">
-          <p className="nbreArticles">Nombre de product search: 15 all</p>
+        </TabList>
+        <TabPanel value='all'>
+
           <div className="itemsGrid">
             <Item
-              nom={items[1].nom}
               url={items[1].url}
+              nom={items[1].nom}
               prix={items[1].prix}
-              pastille={items[1].pastille}
               nouveauPrix={items[1].nouveauPrix}
+              pastille={items[1].pastille}
+              categorie={items[1].categorie}
             />
             <Item
-              nom={items[2].nom}
-              url={items[2].url}
-              prix={items[2].prix}
-              pastille={items[2].pastille}
-              nouveauPrix={items[2].nouveauPrix}
-            />
-            <Item
-              nom={items[3].nom}
-              url={items[3].url}
-              prix={items[3].prix}
-              pastille={items[3].pastille}
-              nouveauPrix={items[3].nouveauPrix}
-            />
-            <Item
-              nom={items[4].nom}
-              url={items[4].url}
-              prix={items[4].prix}
-              pastille={items[4].pastille}
-              nouveauPrix={items[4].nouveauPrix}
-            />
-            <Item
-              nom={items[5].nom}
-              url={items[5].url}
-              prix={items[5].prix}
-              pastille={items[5].pastille}
-              nouveauPrix={items[5].nouveauPrix}
-            />
-            <Item
-              nom={items[6].nom}
               url={items[6].url}
+              nom={items[6].nom}
               prix={items[6].prix}
-              pastille={items[6].pastille}
               nouveauPrix={items[6].nouveauPrix}
+              pastille={items[6].pastille}
+              categorie={items[6].categorie}
             />
             <Item
-              nom={items[1].nom}
-              url={items[1].url}
-              prix={items[1].prix}
-              pastille={items[1].pastille}
-              nouveauPrix={items[1].nouveauPrix}
-            />
-            <Item
-              nom={items[2].nom}
               url={items[2].url}
+              nom={items[2].nom}
               prix={items[2].prix}
-              pastille={items[2].pastille}
               nouveauPrix={items[2].nouveauPrix}
+              pastille={items[2].pastille}
+              categorie={items[2].categorie}
             />
             <Item
-              nom={items[3].nom}
               url={items[3].url}
+              nom={items[3].nom}
               prix={items[3].prix}
-              pastille={items[3].pastille}
               nouveauPrix={items[3].nouveauPrix}
+              pastille={items[3].pastille}
+              categorie={items[3].categorie}
+            />
+            <Item
+              url={items[4].url}
+              nom={items[4].nom}
+              prix={items[4].prix}
+              nouveauPrix={items[4].nouveauPrix}
+              pastille={items[4].pastille}
+              categorie={items[4].categorie}
+            />
+            <Item
+              url={items[5].url}
+              nom={items[5].nom}
+              prix={items[5].prix}
+              nouveauPrix={items[5].nouveauPrix}
+              pastille={items[5].pastille}
+              categorie={items[5].categorie}
+            />
+            <Item
+              url={items[6].url}
+              nom={items[6].nom}
+              prix={items[6].prix}
+              nouveauPrix={items[6].nouveauPrix}
+              pastille={items[6].pastille}
+              categorie={items[6].categorie}
+            />
+            <Item
+              url={items[0].url}
+              nom={items[0].nom}
+              prix={items[0].prix}
+              nouveauPrix={items[0].nouveauPrix}
+              pastille={items[0].pastille}
+              categorie={items[0].categorie}
+            />
+            <Item
+              url={items[4].url}
+              nom={items[4].nom}
+              prix={items[4].prix}
+              nouveauPrix={items[4].nouveauPrix}
+              pastille={items[4].pastille}
+              categorie={items[4].categorie}
+            />
+
+          </div>
+        </TabPanel>
+        <TabPanel value='women'>
+          <div className="itemsGrid">
+            <Item
+              url={items[1].url}
+              nom={items[1].nom}
+              prix={items[1].prix}
+              nouveauPrix={items[1].nouveauPrix}
+              pastille={items[1].pastille}
+              categorie={items[1].categorie}
+            />
+            <Item
+              url={items[2].url}
+              nom={items[2].nom}
+              prix={items[2].prix}
+              nouveauPrix={items[2].nouveauPrix}
+              pastille={items[2].pastille}
+              categorie={items[2].categorie}
+            />
+            <Item
+              url={items[5].url}
+              nom={items[5].nom}
+              prix={items[5].prix}
+              nouveauPrix={items[5].nouveauPrix}
+              pastille={items[5].pastille}
+              categorie={items[5].categorie}
+            /></div>
+        </TabPanel>
+        <TabPanel value='kids'>
+          <Item
+            url={items[3].url}
+            nom={items[3].nom}
+            prix={items[3].prix}
+            nouveauPrix={items[3].nouveauPrix}
+            pastille={items[3].pastille}
+            categorie={items[3].categorie}
+          />
+        </TabPanel>
+        <TabPanel value='men'>
+          <div className="itemsGrid">
+
+            <Item
+              url={items[0].url}
+              nom={items[0].nom}
+              prix={items[0].prix}
+              nouveauPrix={items[0].nouveauPrix}
+              pastille={items[0].pastille}
+              categorie={items[0].categorie}
+            />
+            <Item
+              url={items[6].url}
+              nom={items[6].nom}
+              prix={items[6].prix}
+              nouveauPrix={items[6].nouveauPrix}
+              pastille={items[6].pastille}
+              categorie={items[6].categorie}
             />
           </div>
-        </div>
-      </div>
-      <Footer />
-    </section>
-  );
+        </TabPanel>
+        <TabPanel value='accsessoires'>
+          <div className="itemsGrid">
+
+            <Item
+              url={items[4].url}
+              nom={items[4].nom}
+              prix={items[4].prix}
+              nouveauPrix={items[4].nouveauPrix}
+              pastille={items[4].pastille}
+              categorie={items[4].categorie}
+            />
+          </div>
+        </TabPanel>
+      </Tabs>
+    </section>)
 }

@@ -1,9 +1,49 @@
-.item div {
-  height: 15rem;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+.item {
+  font-size: .85rem;
 }
+
+.imageItem button,
+.imageItem span,
+.imageItem i {
+  display: none;
+  border-radius: 1rem;
+  color: white;
+  position: absolute;
+  border: none;
+}
+
+.item:hover .imageItem button,
+.item:hover .imageItem span,
+.item:hover .imageItem i {
+  display: block;
+}
+
+.imageItem button {
+  background-color: black;
+  left: 29%;
+  bottom: .3rem;
+}
+
+.imageItem span {
+  top: 1rem;
+  left: 1rem;
+  background-color: rgb(96, 209, 96);
+  min-width: 2rem;
+  text-align: center;
+}
+
+.imageItem i {
+  top: 1rem;
+  right: 1rem;
+}
+
+.imageItem {
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10rem;
+}
+
 .productItemsContainer p {
   text-align: right;
 }

@@ -10,11 +10,11 @@ const About = () => {
         <h1 className="about">ABOUT</h1>
       </div>
       <div className="div2-about container">
-        <div className="row">
-          <div className="col-4">
+        <div className="aboutRow">
+          <div className="col1">
             <img src="/img/cintres.jpg" className="cintre" alt="" />
           </div>
-          <div className="col-8">
+          <div className="col2">
             <h2 className="story">Our story</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque

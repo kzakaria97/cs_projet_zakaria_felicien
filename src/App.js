@@ -11,6 +11,7 @@ import Info3 from "./components/info/Info3";
 import Info4 from "./components/info/Info4";
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './mediaQueries.css'
 
 const App = () => {
   return (

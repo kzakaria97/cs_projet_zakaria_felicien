@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="row">
-          <div className="col-6 text-center">
+        <div className="footRow">
+          <div className="col1 text-center">
             <p className="text-black">
               <strong>GET IN TOUCH</strong>
             </p>
@@ -22,7 +22,7 @@ const Footer = () => {
               <i class="fab fa-youtube"></i>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col2">
             <p className="text-black">
               <strong>LINK</strong>
             </p>
@@ -33,7 +33,7 @@ const Footer = () => {
               Returns
             </p>
           </div>
-          <div className="col-3">
+          <div className="col3">
             <p className="text-black">
               <strong>LINK</strong>
             </p>

@@ -3,6 +3,7 @@
   width: 75%;
   display: grid;
   grid-template-columns: 1fr 3fr;
+
 }
 
 .Product h1 {
@@ -16,6 +17,7 @@
 }
 
 .itemsGrid {
+  grid-column: 2;
   gap: 1rem;
   width: 100%;
   display: grid;
@@ -25,7 +27,20 @@
 .productNav h2 {
   font-weight: 800;
 }
-
-.navinput {
+.navTop {
+  line-height: 2rem;
+}
+.navInput  {
+  border-radius: 1rem;
+  margin: 1rem 2rem;
   border: 1px solid black;
+  padding: 0.3rem;
+}
+.navInput input {
+  border: none;
+}
+.nbreArticles {
+  color: gray;
+  /* position: absolute;
+  right: 10%; */
 }

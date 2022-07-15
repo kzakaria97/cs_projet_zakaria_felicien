@@ -8,7 +8,16 @@
   align-items: center;
   font-size: 40px;
 }
+
+.aboutRow {
+  padding: 0 3rem;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
 .div2-about {
+  padding: 0 5rem;
   margin-top: 5%;
   color: grey;
   font-size: 15px;
@@ -18,10 +27,9 @@
   color: black;
 }
 .cintre {
-  width: 75%;
-  height: 96%;
+  width: 100%;
+  height: auto;
   display: flex;
-  margin-left: 25%;
 }
 .para2-about {
   border-left: solid 2px grey;
