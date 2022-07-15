@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   padding: 1%;
-  margin-top: 2%;
+  margin-top: 1%;
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 2;
-  border-bottom: solid 2px black;
+  border-bottom: solid 1px black;
 }
 .navigation ul {
   padding: 0 !important;
@@ -31,4 +31,17 @@ li {
 }
 a {
   color: black !important;
+}
+.dropdown a {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white;
+  border: none;
+}
+.dropdown a:hover {
+  background-color: white;
+  border: none !important;
+}
+.icon {
+  display: flex;
 }

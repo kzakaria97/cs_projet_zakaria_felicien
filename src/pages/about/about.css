@@ -1,5 +1,5 @@
 .about {
-  background-image: url("../../../public//img/brique.jpg");
+  background-image: url("../../../public/img/brique.jpg");
   color: white;
   height: 50vh;
   width: 100%;
@@ -19,7 +19,7 @@
 }
 .cintre {
   width: 75%;
-  height: 96%;
+  height: 85%;
   display: flex;
   margin-left: 25%;
 }

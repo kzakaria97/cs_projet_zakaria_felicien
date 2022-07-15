@@ -5,7 +5,8 @@ import "react-tabs/style/react-tabs.css";
 import Footer from "../../components/footer/Footer";
 import Video from "../../components/video/Video";
 import CarouselComponent from "../../components/swiper/Swipe";
-import Panel from "../../components/panel/Panel";
+import Filter from "../../components/filter/Filter";
+
 const Home = () => {
   return (
     <div>
@@ -22,7 +23,7 @@ const Home = () => {
           <button className="btn3-div2">COMING SOON</button>
         </div>
       </div>
-      <Panel />
+      <Filter />
       <div className="div4-home">
         <Video />
       </div>
