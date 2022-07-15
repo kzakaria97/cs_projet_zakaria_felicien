@@ -35,7 +35,7 @@ const Info2 = () => {
               {Data.map((element, index) => {
                 return (
                   <>
-                    {element.id === 1 && (
+                    {element.id && (
                       <div>
                         <div key={index}>
                           <h2 className="text-center">Detail Page</h2>
@@ -66,5 +66,4 @@ const Info2 = () => {
     </div>
   );
 };
-
 export default Info2;

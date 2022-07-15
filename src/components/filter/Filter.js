@@ -46,7 +46,7 @@ const Filter = ({ test }) => {
                       </div>
                       <p>{element.etat}</p>
                       <p>{element.name}</p>
-                      <p>{element.price}</p>
+                      <p>{element.price} $</p>
                       <div></div>
                       <Info2 />
                     </div>

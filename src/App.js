@@ -7,6 +7,7 @@ import Contact from "./pages/contact/Contact";
 import Like from "../src/components/like/Like";
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./components/navigation/Navigation";
 import { Data } from "./data/Data";
 
 const App = () => {
@@ -23,7 +24,10 @@ const App = () => {
         <Route path="/product" element={<Product />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/like" element={<Like listLike={likeItem} />} />
+        <Route
+          path="/like"
+          element={<Like listLike={likeItem} maison={likeItem} />}
+        />
         {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclarer au dessus */}
         <Route path="*" element={<Home test={addLike} />} />
       </Routes>

@@ -55,23 +55,7 @@ const Navigation = () => {
             <i class="far fa-shopping-bag"></i>
           </a>
 
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>
-              <a class="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"></ul>
         </div>
       </div>
     </div>
