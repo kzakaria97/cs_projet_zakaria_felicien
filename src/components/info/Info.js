@@ -11,7 +11,7 @@ const Info2 = () => {
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        more information
+        more informations
       </button>
 
       <div
