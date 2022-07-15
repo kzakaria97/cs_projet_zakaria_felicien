@@ -13,6 +13,7 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 4,
@@ -58,6 +61,7 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 5,
@@ -73,6 +77,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 6,
@@ -88,6 +93,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 7,
@@ -118,6 +124,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 9,
@@ -133,6 +140,7 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 10,
@@ -148,6 +156,7 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 11,
@@ -163,6 +172,7 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 12,

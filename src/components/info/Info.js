@@ -38,7 +38,7 @@ const Info2 = () => {
                     {element.id === 1 && (
                       <div>
                         <div key={index}>
-                          <h2 className="text-center">About</h2>
+                          <h2 className="text-center">Detail Page</h2>
                           <img src={element.src} alt="" />
                           <p>{element.name}</p>
                           <p>{element.price}</p>
