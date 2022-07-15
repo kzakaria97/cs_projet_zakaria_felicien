@@ -38,6 +38,7 @@
 }
 
 .imageItem {
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   width: 100%;

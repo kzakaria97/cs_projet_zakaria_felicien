@@ -3,7 +3,6 @@
   width: 75%;
   display: grid;
   grid-template-columns: 1fr 3fr;
-
 }
 
 .Product h1 {

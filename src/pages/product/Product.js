@@ -15,7 +15,7 @@ export default function Product() {
   const [items, setItems] = useState([
     {
       nom: "Herschel supply co 25l",
-      url: "./img/item-2.jpg",
+      url: "./img/cintres.jpg",
       prix: "$75.00",
       nouveauPrix: "",
       pastille: "New",
@@ -24,7 +24,7 @@ export default function Product() {
     },
     {
       nom: "Denim jacket blue",
-      url: "./img/item-7.jpg",
+      url: "./img/chemise.jpg",
       prix: "$92.50",
       nouveauPrix: "Coach slim easton black",
       pastille: "",
@@ -33,7 +33,7 @@ export default function Product() {
     },
     {
       nom: "Coach slim easton black",
-      url: "./img/item-4.jpg",
+      url: "./img/polo.jpg",
       prix: "$165.90",
       nouveauPrix: "",
       astille: "",
@@ -41,7 +41,7 @@ export default function Product() {
       categorie: "kids",
     },
     {
-      url: "./img/item-3.jpg",
+      url: "./img/lunette.jpg",
       pastille: "New",
       nom: "Supply co l",
       prix: "$75.00",
@@ -50,7 +50,7 @@ export default function Product() {
       categorie: "accessoire",
     },
     {
-      url: "./img/item-4.jpg",
+      url: "./img/sac.jpg",
       pastille: "",
       nom: "Herschel da thing",
       prix: "$75.00",
@@ -59,7 +59,7 @@ export default function Product() {
       categorie: "men",
     },
     {
-      url: "./img/item-6.jpg",
+      url: "./img/t-shirt.jpg",
       pastille: "",
       nom: "Row greey",
       prix: "$92.50",
@@ -69,7 +69,7 @@ export default function Product() {
     },
     {
       nom: "Truc no 2l",
-      url: "./img/item-5.jpg",
+      url: "./img/chemise.jpg",
       prix: "$75.00",
       nouveauPrix: "",
       pastille: "New",

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./item.css";
-import Product from "./Product"
 
 
 export default function Item(props) {
+  console.log(props.url);
   return (
     <article
       className="item">
