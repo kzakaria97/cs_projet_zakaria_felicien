@@ -35,13 +35,13 @@ const Info2 = () => {
               {Data.map((element, index) => {
                 return (
                   <>
-                    {element.id === 1 && (
+                    {element.id == 1 && (
                       <div>
                         <div key={index}>
-                          <h2 className="text-center">About</h2>
-                          <img src={element.src} alt="" />
+                          <h2 className="detail text-center">Detail Page</h2>
+                          <img className="img-info" src={element.src} alt="" />
                           <p>{element.name}</p>
-                          <p>{element.price}</p>
+                          <p>${element.price}</p>
                           <p>{element.description}</p>
                           <p>Taille disponible : S/M/L/XL</p>
                         </div>
@@ -66,5 +66,4 @@ const Info2 = () => {
     </div>
   );
 };
-
 export default Info2;

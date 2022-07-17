@@ -28,7 +28,12 @@ const CarouselComponent = () => {
             <u>LEATHER BAGS</u>
           </h1>
           <p>New Collection</p>
-          <button className="rounded-pill">SHOP NOW</button>
+          <NavLink
+            to="/product"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <button className="rounded-pill">SHOP NOW</button>
+          </NavLink>
         </div>
       </div>
       <div>
@@ -38,7 +43,12 @@ const CarouselComponent = () => {
             <u>LEATHER BAGS</u>
           </h1>
           <p>New Collection</p>
-          <button className="rounded-pill">SHOP NOW</button>
+          <NavLink
+            to="/product"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <button className="rounded-pill">SHOP NOW</button>
+          </NavLink>
         </div>
       </div>
       <div>

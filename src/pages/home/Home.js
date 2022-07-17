@@ -7,7 +7,7 @@ import Video from "../../components/video/Video";
 import CarouselComponent from "../../components/swiper/Swipe";
 import Filter from "../../components/filter/Filter";
 
-const Home = () => {
+const Home = ({ test }) => {
   return (
     <div>
       <Navigation />
@@ -23,7 +23,7 @@ const Home = () => {
           <button className="btn3-div2">COMING SOON</button>
         </div>
       </div>
-      <Filter />
+      <Filter test={test} />
       <div className="div4-home">
         <Video />
       </div>

@@ -1,9 +1,10 @@
 import React from "react";
+import "../../media.css";
 import "./video.css";
 
 const Video = () => {
   return (
-    <div>
+    <div className="div-video">
       <video
         className="land"
         src="/img/land.mp4"

@@ -9,7 +9,7 @@ const Navigation = () => {
         to="/home"
         className={(nav) => (nav.isActive ? "nav-active" : "")}
       >
-        <img src="/img/logo.png" alt="" />
+        <img src="/img/logo.png" className="fashe" alt="" />
       </NavLink>
       <ul className="lien">
         <NavLink
@@ -42,7 +42,7 @@ const Navigation = () => {
           to="/like"
           className={(nav) => (nav.isActive ? "nav-active" : "")}
         >
-          <i class="pt-2 far fa-heart text-black"></i>
+          <i class="icon-coeur pt-2 far fa-heart text-black"></i>
         </NavLink>
         <div class="dropdown">
           <a
@@ -52,26 +52,10 @@ const Navigation = () => {
             id="dropdownMenuLink"
             data-bs-toggle="dropdown"
           >
-            <i class="far fa-shopping-bag"></i>
+            <i class="icon-bag far fa-shopping-bag"></i>
           </a>
 
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>
-              <a class="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"></ul>
         </div>
       </div>
     </div>

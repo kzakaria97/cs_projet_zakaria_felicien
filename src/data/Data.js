@@ -3,7 +3,7 @@ export const Data = [
     id: 1,
     src: "./images/men1.webp",
     name: "Herschel supply co 25l",
-    price: "$75.00",
+    price: 75.0,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Men",
@@ -13,12 +13,13 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 2,
     src: "./images/men2.webp",
     name: "Denim trousers beige",
-    price: "$92.50",
+    price: 92.5,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Men",
@@ -28,12 +29,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 3,
     src: "./images/men3.jpeg",
     name: "Denim trousers beige",
-    price: "$89.99",
+    price: 89.99,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Men",
@@ -43,12 +45,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 4,
     src: "./images/accessoire1.webp",
     name: "Denim trousers beige",
-    price: "$49.99",
+    price: 49.99,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Accessoire",
@@ -58,12 +61,13 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 5,
     src: "./images/accessoire2.webp",
     name: "Denim trousers beige",
-    price: "$92.50",
+    price: 92.5,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Accessoire",
@@ -73,12 +77,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 6,
     src: "./images/accessoire3.webp",
     name: "Denim trousers beige",
-    price: "$25.99",
+    price: 25.99,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Accessoire",
@@ -88,12 +93,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 7,
     src: "./images/kid1.jpg",
     name: "Denim trousers beige",
-    price: "$65.00",
+    price: 65.0,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Kids",
@@ -108,7 +114,7 @@ export const Data = [
     id: 8,
     src: "./images/kid2.jpg",
     name: "Denim trousers beige",
-    price: "$55.00",
+    price: 55.0,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Kids",
@@ -118,12 +124,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 9,
     src: "./images/kid3.jpg",
     name: "Denim trousers beige",
-    price: "$39.99",
+    price: 39.99,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Kids",
@@ -133,12 +140,13 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 10,
     src: "./images/women1.jpeg",
     name: "Denim trousers beige",
-    price: "$40.00",
+    price: 40.0,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Women",
@@ -148,12 +156,13 @@ export const Data = [
     old: true,
     stock: 10,
     button: "more informations",
+    etat: "New",
   },
   {
     id: 11,
     src: "./images/women2.jpeg",
     name: "Denim trousers beige",
-    price: "$48.50",
+    price: 48.5,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Women",
@@ -163,12 +172,13 @@ export const Data = [
     old: false,
     stock: 10,
     button: "more informations",
+    etat: "Sale",
   },
   {
     id: 12,
     src: "./images/women3.jpeg",
     name: "Denim trousers beige",
-    price: "$75.99",
+    price: 75.99,
     description:
       "For a backpack that can suit all your carrying needs, grab the Hybrid Backpack from Made By Design™. This unique backpack serves as both a traditional backpack and a suitcase. Zip open the front to reveal an open area with smaller pockets like a regular backpack, or zip open the middle to reveal three large storage pockets that are perfect for organizing socks, toiletries and more when you travel. With adjustable straps, a top handle and a side handle, this suitcase backpack can be comfortably carried, no matter what you're using it for",
     categorie: "Women",
