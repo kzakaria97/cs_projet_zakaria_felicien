@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="col-8">
             <h2 className="story">Our story</h2>
-            <p>
+            <p className="text-about">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
               voluptate autem asperiores nobis! Non aut provident, itaque sed
               quos vitae dolore? Eaque quae eos nihil vel necessitatibus

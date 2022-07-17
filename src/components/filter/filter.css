@@ -44,7 +44,7 @@
 }
 
 .imgcontainer:hover .elementicon-like {
-  transform: translateY(0.1rem);
+  transform: translateY(-15px);
 }
 
 .add-cart {

@@ -1,0 +1,384 @@
+@media screen and (width: 1024px) {
+  .land {
+    width: 182.3vh !important;
+  }
+  .div4-home {
+    width: 182.3vh !important;
+  }
+  .navigation {
+    max-width: 182.3vh !important;
+    font-size: 12px !important;
+  }
+  .fashe {
+    width: 70%;
+  }
+  .swiper {
+    width: 182.3vh !important;
+  }
+  .slider-container .slider-control-centerright button {
+    position: relative;
+    right: 1px;
+  }
+  .legend-swipe {
+    position: relative;
+    right: 0px;
+  }
+  .slider-control-bottomcenter ul {
+    position: relative;
+    right: 0px;
+    top: -100px !important;
+  }
+  .div2 {
+    max-width: 182.3vh !important;
+  }
+  .div1-filter {
+    max-width: 182.3vh !important;
+    font-size: 12px;
+  }
+  .div1-filter img {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  .best {
+    font-size: 11px !important;
+  }
+  .coeur {
+    font-size: 16px !important;
+  }
+  .btn-info {
+    width: 100px !important;
+    font-size: 10px !important;
+    padding: 0 !important;
+  }
+  .footer {
+    max-width: 182.3vh;
+    font-size: 12px;
+  }
+  .masterCard {
+    width: 150px !important;
+  }
+  .icon-coeur {
+    font-size: 15px;
+  }
+  .img-like {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  .likeItem {
+    display: flex !important;
+    gap: 35px !important;
+    padding-left: 20px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .land {
+    width: 182vh !important;
+  }
+  .div4-home {
+    width: 182vh !important;
+  }
+  .navigation {
+    width: 182vh !important;
+    font-size: 12px !important;
+  }
+  .fashe {
+    width: 70%;
+  }
+  .swiper {
+    width: 182vh !important;
+  }
+  .slider-container .slider-control-centerright button {
+    position: relative;
+    right: 1px;
+  }
+  .legend-swipe {
+    position: relative;
+    right: 0px;
+  }
+  .slider-control-bottomcenter ul {
+    position: relative;
+    right: 0px;
+    top: -100px !important;
+  }
+  .div2 {
+    width: 182vh !important;
+  }
+  .div1-filter {
+    width: 182vh !important;
+    font-size: 12px;
+  }
+  .div1-filter img {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  .best {
+    font-size: 11px !important;
+  }
+  .coeur {
+    font-size: 16px !important;
+  }
+  .btn-info {
+    width: 100px !important;
+    font-size: 10px !important;
+    padding: 0 !important;
+  }
+  .footer {
+    width: 182vh;
+    font-size: 12px;
+  }
+  .masterCard {
+    width: 150px !important;
+  }
+  .icon-coeur {
+    font-size: 15px;
+  }
+  .img-like {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  .likeItem {
+    display: flex !important;
+    gap: 35px !important;
+    padding-left: 20px !important;
+  }
+  .main-div {
+    width: 182vh !important;
+  }
+  .cintre {
+    height: 300px !important;
+  }
+  .text-about {
+    font-size: 12px;
+  }
+  .para2-about {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .land {
+    width: 182vh !important;
+  }
+  .btn-info {
+    width: 80vh !important;
+    font-size: 35px !important;
+  }
+  .div4-home {
+    width: 182vh !important;
+  }
+  .div-play {
+    font-size: 45px;
+  }
+  .navigation {
+    width: 182vh !important;
+    font-size: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .fashe {
+    width: 100%;
+    height: 100%;
+  }
+  .lien {
+    font-size: 35px !important;
+    position: relative;
+    right: 60px;
+  }
+  .icon-coeur {
+    font-size: 35px !important;
+  }
+  .icon-bag {
+    font-size: 35px !important;
+    position: relative;
+    top: 5px !important;
+  }
+  .swiper {
+    width: 182vh !important;
+    height: 70vh !important;
+  }
+  .legend-swipe {
+    font-size: 35px !important;
+  }
+  .legend-swipe button {
+    font-size: 20px !important;
+  }
+  .div2 {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .div2 div {
+    width: 150vh;
+    height: 130vh;
+  }
+  .div2 div button {
+    width: 50vh !important;
+    font-size: 30px;
+  }
+  .title-product {
+    font-size: 50px;
+  }
+  .tablist {
+    font-size: 45px;
+  }
+  .filter1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-cart {
+    width: 150vh !important;
+  }
+  .div-footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .back {
+    font-size: 25px !important;
+  }
+  .empty {
+    font-size: 35px;
+  }
+  .para-footer {
+    font-size: 20px;
+  }
+  .div2-about div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    font-size: 30px !important;
+  }
+  .story {
+    font-size: 40px;
+  }
+  .cintre {
+    width: 150vh !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .contactForm {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+  }
+  .send {
+    width: 25vh !important;
+    text-align: center;
+  }
+  .formInput h2 {
+    font-size: 45px !important;
+  }
+  .map {
+    width: 150vh;
+    height: 130vh;
+  }
+  .img-filter {
+    width: 150vh !important;
+    height: 160vh !important;
+  }
+  .filterElement {
+    font-size: 45px;
+  }
+  .div1-filter {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .slider-container .slider-control-centerright button {
+    position: relative;
+    right: 1px;
+  }
+  .legend-swipe {
+    position: relative;
+    right: 0px;
+  }
+  .slider-control-bottomcenter ul {
+    position: relative;
+    right: 0px;
+    top: -100px !important;
+  }
+  .div2 {
+    width: 182vh !important;
+  }
+  .div1-filter {
+    width: 182vh !important;
+    font-size: 12px;
+  }
+
+  .best {
+    font-size: 20px !important;
+  }
+  .coeur {
+    font-size: 50px !important;
+  }
+  .img-like {
+    width: 40vh !important;
+    height: 50vh !important;
+  }
+  .main-div {
+    width: 182vh !important;
+  }
+  .likeItem {
+    font-size: 30px !important;
+  }
+  .legend {
+    font-size: 20px !important;
+    position: relative !important;
+    right: 200px !important;
+  }
+  .add-bag {
+    display: none;
+  }
+  .imgcontainer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .elementicon-like {
+    position: absolute;
+    transform: translateY(-3rem) !important;
+    right: 1rem;
+    transition: 100ms ease-in;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .modal-dialog {
+    width: 183vh !important;
+    font-size: 25px !important;
+  }
+  .imgcontainer:hover .elementicon-like {
+    transform: translateY(5px) !important;
+  }
+  .detail {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .img-info {
+    width: 100vh !important;
+    height: 120vh !important;
+  }
+  .add-cart {
+    background-color: black;
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -50%;
+    left: 50%;
+    transition: 100ms ease-out;
+    width: 30vh;
+  }
+  .imgcontainer:hover .add-cart {
+    bottom: 0%;
+  }
+}

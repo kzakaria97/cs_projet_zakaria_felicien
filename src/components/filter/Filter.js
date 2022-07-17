@@ -10,8 +10,8 @@ const Filter = ({ test }) => {
   const [isHovered, setHover] = useState(false);
 
   return (
-    <div className="mt-5">
-      <h2 className="text-center">Our products</h2>
+    <div className="div1-filter mt-5">
+      <h2 className="title-product text-center">Our products</h2>
       <Tabs className="mt-5">
         <TabList className=" tablist text-center mb-5">
           <Tab>Best Seller</Tab>
@@ -26,7 +26,11 @@ const Filter = ({ test }) => {
               <>
                 {element.bestseller === true && (
                   <div>
-                    <div key={index} className="filterElement">
+                    <div
+                      style={{ position: "relative" }}
+                      key={index}
+                      className="filterElement"
+                    >
                       <div className="imgcontainer">
                         <button
                           className="elementicon-like"
@@ -37,14 +41,32 @@ const Filter = ({ test }) => {
                           onClick={() => test(element)}
                         >
                           <i
-                            class="fas fa-heart"
+                            class="coeur fas fa-heart"
                             style={{ color: "red", fontSize: "24px" }}
                           ></i>
                         </button>
-                        <img src={element.src} alt="item" />
+                        <img
+                          src={element.src}
+                          className="img-filter"
+                          alt="item"
+                        />
                         <button className="add-cart">ADD TO BAG</button>
                       </div>
-                      <p>{element.etat}</p>
+                      <p
+                        className=" best rounded-pill"
+                        style={{
+                          position: "absolute",
+                          fontSize: "12px",
+                          top: "0",
+                          left: "0",
+                          backgroundColor: "red",
+                          width: "20%",
+                          textAlign: "center",
+                          color: "white",
+                        }}
+                      >
+                        {element.etat}
+                      </p>
                       <p>{element.name}</p>
                       <p>{element.price} $</p>
                       <div></div>
@@ -62,7 +84,11 @@ const Filter = ({ test }) => {
               <>
                 {element.new === true && (
                   <div>
-                    <div key={index} className="filterElement">
+                    <div
+                      style={{ position: "relative" }}
+                      key={index}
+                      className="filterElement"
+                    >
                       <div className="imgcontainer">
                         <button
                           className="elementicon-like"
@@ -73,16 +99,37 @@ const Filter = ({ test }) => {
                           onClick={() => test(element)}
                         >
                           <i
-                            class="fas fa-heart"
-                            style={{ color: "red", fontSize: "24px" }}
+                            class="coeur fas fa-heart"
+                            style={{
+                              color: "rgb(68, 153, 153)",
+                              fontSize: "24px",
+                            }}
                           ></i>
                         </button>
-                        <img src={element.src} alt="item" />
+                        <img
+                          src={element.src}
+                          alt="item"
+                          className="img-filter"
+                        />
                         <button className="add-cart">ADD TO BAG</button>
                       </div>
-                      <p>{element.etat}</p>
+                      <p
+                        className="best rounded-pill"
+                        style={{
+                          position: "absolute",
+                          fontSize: "12px",
+                          top: "0",
+                          left: "0",
+                          backgroundColor: "rgb(68, 153, 153)",
+                          width: "20%",
+                          textAlign: "center",
+                          color: "white",
+                        }}
+                      >
+                        {element.etat}
+                      </p>
                       <p>{element.name}</p>
-                      <p>{element.price}</p>
+                      <p>{element.price} $</p>
                       <div></div>
                       <Info2 />
                     </div>
@@ -98,7 +145,11 @@ const Filter = ({ test }) => {
               <>
                 {element.sale === true && (
                   <div>
-                    <div key={index} className="filterElement">
+                    <div
+                      style={{ position: "relative" }}
+                      key={index}
+                      className="filterElement"
+                    >
                       <div className="imgcontainer">
                         <button
                           className="elementicon-like"
@@ -109,16 +160,34 @@ const Filter = ({ test }) => {
                           onClick={() => test(element)}
                         >
                           <i
-                            class="fas fa-heart"
+                            class="coeur fas fa-heart"
                             style={{ color: "red", fontSize: "24px" }}
                           ></i>
                         </button>
-                        <img src={element.src} alt="item" />
+                        <img
+                          src={element.src}
+                          className="img-filter"
+                          alt="item"
+                        />
                         <button className="add-cart">ADD TO BAG</button>
                       </div>
-                      <p>{element.etat}</p>
+                      <p
+                        className="best rounded-pill"
+                        style={{
+                          position: "absolute",
+                          fontSize: "12px",
+                          top: "0",
+                          left: "0",
+                          backgroundColor: "red",
+                          width: "20%",
+                          textAlign: "center",
+                          color: "white",
+                        }}
+                      >
+                        {element.etat}
+                      </p>
                       <p>{element.name}</p>
-                      <p>{element.price}</p>
+                      <p>{element.price} $</p>
                       <div></div>
                       <Info2 />
                     </div>
@@ -145,14 +214,18 @@ const Filter = ({ test }) => {
                           onClick={() => test(element)}
                         >
                           <i
-                            class="fas fa-heart"
+                            class="coeur fas fa-heart"
                             style={{ color: "red", fontSize: "24px" }}
                           ></i>
                         </button>
-                        <img src={element.src} alt="item" />
+                        <img
+                          src={element.src}
+                          className="img-filter"
+                          alt="item"
+                        />
                         <button className="add-cart">ADD TO BAG</button>
                       </div>
-                      <p>{element.etat}</p>
+
                       <p>{element.name}</p>
                       <p>{element.price}</p>
                       <div></div>

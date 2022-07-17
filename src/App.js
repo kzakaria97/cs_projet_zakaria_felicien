@@ -18,20 +18,22 @@ const App = () => {
     console.log(likeItem);
   };
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/home" element={<Home test={addLike} />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route
-          path="/like"
-          element={<Like listLike={likeItem} maison={likeItem} />}
-        />
-        {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclarer au dessus */}
-        <Route path="*" element={<Home test={addLike} />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="main-div">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Home test={addLike} />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/like"
+            element={<Like listLike={likeItem} maison={likeItem} />}
+          />
+          {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclarer au dessus */}
+          <Route path="*" element={<Home test={addLike} />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 
